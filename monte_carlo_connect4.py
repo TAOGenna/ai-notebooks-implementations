@@ -15,7 +15,6 @@ class Board:
         for index,available_height in enumerate(self.next):
             if available_height<6: moves.append((available_height,index))
         choice = random.choice(moves)
-        #self.next[index] += 1
         return choice 
 
     def IsTerminal(self):
@@ -76,7 +75,7 @@ class Node:
         return self.Q/self.N + cte*np.sqrt(2*np.log(visits_parent)/self.N)
 
 def MCTS(budget, root):
-    for _ in tqdm(range(budget), desc="Running MCTS"):
+    for _ in range(budget):
         leaf, turn = TreePolicy(node=root, turn=-1)
         reward = DefaultPolicy(leaf.state, turn)
         BackupNegamax(leaf, reward, turn)
@@ -116,11 +115,13 @@ def Expand(node, turn) -> Node:
 
 def DefaultPolicy(state, turn) -> int:
     state = copy.deepcopy(state)
+    iterations = 0
     while state.IsTerminal() is False and state.Winner() == 0:  
         action = state.UntriedMove()
-        #print(f'action Defaultpolicy: {action}')
         state.board[action[0]][action[1]] = turn
+        state.next[action[1]] += 1
         turn = -turn
+        iterations += 1
     return state.Winner()
 
 def BackupNegamax(node, reward, turn):
