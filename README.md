@@ -1,2 +1,2 @@
 # ai-notebooks-implementations
-Some ipython notebooks implementing AI algorithms - inspired by Geohotz 
+Some personal implementations in ipython notebooks of AI algorithms - inspired by Geohotz's own repo 
