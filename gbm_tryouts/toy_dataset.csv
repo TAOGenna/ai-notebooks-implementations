@@ -1,0 +1,9 @@
+age,income,city,owns_pet,purchased1,purchased2,user_id
+23.0,48000.0,Lima,yes,0,1,c3e70dd6-a461-452d-98ae-a5c288d47145
+45.0,82000.0,Cusco,no,1,0,9cb556a1-2ed7-4665-82c4-3d3b2191886d
+31.0,61000.0,Lima,yes,0,0,44dd4982-783f-4e1c-97f6-87a93382ecb3
+,54000.0,Arequipa,no,1,0,798f4272-7943-499b-a89d-9b94051ba127
+52.0,,Lima,yes,1,1,defd8b36-f92e-4b68-a2a3-c1e453956b8f
+28.0,45000.0,,no,0,1,b2090a3b-1215-49db-b7bf-a93a65d66cee
+36.0,70000.0,Cusco,yes,1,1,3e398ad9-3b58-4e0c-810e-8cb27476ac07
+41.0,76000.0,Arequipa,,1,0,2803777b-257b-4ec3-96f5-20cc1713b125
