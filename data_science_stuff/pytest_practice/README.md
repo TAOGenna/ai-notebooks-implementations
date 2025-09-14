@@ -1,1 +1,0 @@
-# purpose of this folder: learn pytest mocking
