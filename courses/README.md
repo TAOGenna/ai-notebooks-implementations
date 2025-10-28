@@ -5,11 +5,11 @@
 - [ ] [MIT - Distributed Systems](https://pdos.csail.mit.edu/6.824/schedule.html)
 
 ### MOOCS
-- [ ] coursera: [probabilistic graphical models](https://www.coursera.org/specializations/probabilistic-graphical-models#courses)
 - [ ] coursera: [bayesian statistics](https://www.coursera.org/specializations/bayesian-statistics)
 - [ ] edx: [high dimensional data analysis](https://www.edx.org/learn/data-analysis/harvard-university-high-dimensional-data-analysis)
 - [ ] stocastic calculus: [link](https://www.udemy.com/course/stochastic-calculus/?srsltid=AfmBOoosZ3nKnkEK0V071z2-e3IJfM1YVnq5gPN97fbxrCDTDVm08VDM)
-- [ ] coursera: Probabilistic Graphical Models Specialization [link](https://www.coursera.org/specializations/probabilistic-graphical-models#courses
+- [ ] coursera: Probabilistic Graphical Models Specialization [link](https://www.coursera.org/specializations/probabilistic-graphical-models#courses)
+	- [CMU course + lecture videos](https://www.cs.cmu.edu/~epxing/Class/10708-20/index.html) 
     - Textbook: _Probabilistic Graphical Models: Principles and Techniques_ by Daphne Koller and Nir Friedman (MIT Press)
 	- https://ermongroup.github.io/cs228-notes/
 
