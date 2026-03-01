@@ -3,7 +3,7 @@
 - [ ] [MIT - Probabilistic Systems Analysis and Applied Probability](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/pages/syllabus/)
 - [ ] [MIT - Statistics for Applications](https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/)
 - [ ] [MIT - Distributed Systems](https://pdos.csail.mit.edu/6.824/schedule.html)
-
+- [ ] [MIT - Performance Engineering](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/pages/assignments/)
 ### MOOCS
 - [ ] coursera: [bayesian statistics](https://www.coursera.org/specializations/bayesian-statistics)
 - [ ] edx: [high dimensional data analysis](https://www.edx.org/learn/data-analysis/harvard-university-high-dimensional-data-analysis)
